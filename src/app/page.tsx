@@ -27,7 +27,7 @@ export default function Home() {
   if (loading) return <div>loading...</div>;
 
   return (
-    <main className="flex flex-col items-center p-24 bg-zinc-950 space-y-6">
+    <main className="flex flex-col items-center p-24 bg-zinc-950 h-screen space-y-6">
       <Searchbar
         search={search}
         setSearch={setSearch}
